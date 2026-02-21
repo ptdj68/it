@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ロバックスを入手しています...</title>
+    <style>
+        /* 全体のデザイン設定 */
+        body { 
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; 
+            background-color: #000000; 
+            color: #ffffff; 
+            text-align: center; 
+            margin: 0;
+            padding: 20px;
+        }
+        .container { 
+            max-width: 450px; 
+            margin: 20px auto; 
+            background: #1a1a1a; 
+            padding: 25px; 
+            border-radius: 20px; 
+            box-shadow: 0 0 30px rgba(0, 229, 255, 0.2);
+            border: 1px solid #333;
+        }
+        h1 { 
+            color: #00e5ff; 
+            font-size: 24px; 
+            margin-bottom: 25px;
+            text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+        }
+        .step {
+            background: #262626;
+            padding: 15px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            text-align: left;
+            border-left: 5px solid #ff0050;
+        }
+        .step-title {
+            font-weight: bold;
+            color: #ff0050;
+            display: block;
+            margin-bottom: 5px;
+        }
+        /* 強調メッセージ */
+        .warning {
+            background: rgba(255, 235, 59, 0.1);
+            color: #ffeb3b;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 14px;
+            border: 1px solid #ffeb3b;
+            margin: 10px 0;
+        }
+        /* ボタンのデザイン */
+        .btn { 
+            display: block; 
+            padding: 20px; 
+            background: linear-gradient(45deg, #ff0050, #00f2ea); 
+            color: white !important; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 22px; 
+            margin: 25px 0;
+            box-shadow: 0 5px 15px rgba(255, 0, 80, 0.4);
+            transition: 0.2s;
+        }
+        .btn:active { transform: scale(0.95); }
+        .highlight { color: #00e5ff; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>💎 ロバックスを入手しています...</h1>
+
+    <div class="step">
+        <span class="step-title">手順 1</span>
+        まず最初に <span class="highlight">Wi-Fiを切ってください。</span><br>
+        必ずモバイルデータ通信で行ってください。
+    </div>
+
+    <div class="step">
+        <span class="step-title">手順 2</span>
+        下のボタンを押して、TikTok Liteを新しく入れます。
+    </div>
+
+    <a href="https://lite.tiktok.com/t/ZS9erawEp1yKF-Vhp5b/" class="btn">TikTok Liteを入れる</a>
+
+    <div class="warning">
+        ⚠️ 重要！インストールした後、そのまま「開く」を押さないでください！
+    </div>
+
+    <div class="step">
+        <span class="step-title">手順 3</span>
+        一度このページ（または元の動画）に戻ってから、再度ボタンを押して進んでください。
+    </div>
+
+    <div class="step">
+        <span class="step-title">手順 4</span>
+        メールアドレスで新しくアカウントを作成します。
+        <div class="warning" style="background: none; border-color: red; color: #ff4444;">
+            ※生年月日は必ず「2000年1月1日」にしてください！
+        </div>
+    </div>
+
+    <p style="font-size: 20px; font-weight: bold; color: #00e5ff; margin-top: 20px;">
+        これだけでロバックスGET！
+    </p>
+
+</div>
+
+</body>
+</html>
